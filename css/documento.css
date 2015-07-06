@@ -1,0 +1,324 @@
+﻿		body{
+			background-color:darkRed;
+		}
+
+		.titulo{
+			font-size:30px;
+			color: yellow;
+		}
+	
+		.divLogo{
+			width:330px;
+			margin:auto;
+
+		}
+
+		.logo{
+			position:relative;
+			width:250px;
+			height:290px;
+			margin:auto;
+		}
+
+		.descricao, .prato, .sinalCardapio{
+			color:white;
+		}
+
+		.sinalCardapio{
+			font-size:20px;
+			margin:-5px;
+		}
+
+		.prato{
+			font-size:20px;
+			text-decoration:none;
+
+		}
+
+		.texto{
+			font-size:20px;
+			color:white;
+
+		}
+
+		.descricao{
+			font-size:18px;
+			position:relative;
+			font-style:italic;
+			color:yellow;
+			display:none;
+			margin:0px;
+			left:+20px;
+		}
+
+		.descricao_show{
+			font-size:18px;
+			color:white;
+			position:relative;
+			margin:0px;
+			left:+20px;
+		}
+
+		.descricao_show_no_ident{
+			font-size:18px;
+			color:white;
+			position:relative;
+			margin-top:-7px;
+			margin-bottom:-1px;
+		}
+
+		.botao{
+			position:relative;
+			top:+10px;
+			font-size:25px;
+			color:black;
+			text-align:center;
+			text-decoration:none;
+			border-style:solid;
+			border-width:3px;
+			border-radius:15px;
+			box-shadow: 9px 9px 10px #888888;
+			padding:10px;
+			margin:20px;
+
+			background: -webkit-linear-gradient(#FFD700, #FFE766); /* For Safari 5.1 to 6.0 */
+  			background: -o-linear-gradient(#FFD700, #FFE766); /* For Opera 11.1 to 12.0 */
+  			background: -moz-linear-gradient(#FFD700, #FFE766); /* For Firefox 3.6 to 15 */
+ 			background: linear-gradient(#FFD700, #FFE766); /* Standard syntax */
+
+		}
+	
+		.pagina{
+			position:relative;
+			width:1200px;
+			height:1400px;
+			border-style:solid;
+			border-width:3px;
+			border-radius:15px;
+			box-shadow: 10px 20px 30px black;
+			margin:auto;
+			overflow:auto;
+
+			background: -webkit-linear-gradient(darkred, firebrick); /* For Safari 5.1 to 6.0 */
+  			background: -o-linear-gradient(darkred, firebrick); /* For Opera 11.1 to 12.0 */
+  			background: -moz-linear-gradient(darkred, firebrick); /* For Firefox 3.6 to 15 */
+ 			background: linear-gradient(darkred, firebrick); /* Standard syntax */
+
+		}
+
+		.menu_text_align{
+			text-align:center; /* centraliza horizontalmente a div com classe .menu */
+		}
+
+		.menu{
+			position:relative;
+			display:inline-block; /*elementos div configurados como inline-block são tratados como texto */
+			top:20px;
+		}
+
+		.conteudo{
+			position:relative;
+			top:+110px;
+			margin:auto;
+			width:90%;
+		}
+		
+		.inicio, .contato, .galeria, .menu-cardapio, menu-cardapio1, .menu-cardapio2, .localizacao{
+			display:none;
+		}
+
+		.imagem_direita, .imagem_esquerda{
+			width:170px;
+			height:130px;
+			border-style:solid;
+			border-radius:15px;
+			border-width:1px;
+			margin:10px;
+		}
+
+
+
+		.tabela_inline1, .tabela_inline2, .tabela_inline3{
+			position:relative;
+			overflow:auto;
+			/* display:inline-table; */
+			display: inline-table;		
+			*display: inline-block;
+			vertical-align: top;
+
+			/*
+			display: table-cell;
+			display: inline-block;
+			vertical-align: top;
+			*/
+
+			/*
+			display: table-cell; 
+			display: -moz-inline-stack;
+			display: -webkit-inline-flex;
+			display: inline-flex;
+			display: -o-inline;
+			display: inline-block;
+        			display: inline;
+			*/
+		}
+
+
+		.tabela_inline2{
+			left:130px;
+		}
+
+		.tabela_inline3{
+			left:300px;
+		}
+
+		.imagem_centro, .imagem_centro_id{
+			width:640px;
+			height:480px;
+			margin: auto;
+
+		}
+
+		.imagem_centro{
+			border-style:solid;
+			border-radius:35px;
+			border-width:0px;
+		}
+
+		.imagem_direita{
+			float:right;
+		}
+
+		.imagem_esquerda{
+			float:left;
+		}
+
+		#img_hover:hover{
+			color:blue;
+		}
+		
+		.interno{
+			width:999999px;
+			height:350px;
+		}
+
+		.slider img{
+			position:relative;
+			display:inline;
+			width:140px;
+			height:130px;
+			border-style:solid;
+			border-radius:15px;
+			border-width:1px;
+			margin:10px;
+		}
+		
+		#imagensDiv{
+			position:relative;
+			width:940px;
+			margin:30px auto;
+			/* background-color:yellow; */
+		}
+
+		.slider{
+			width:830px;
+			height:155px;
+			border-style:solid;
+			border-width:0px;
+			border-radius:15px;
+			overflow: hidden;
+			margin:20px;
+			/* background-color:blue; */
+			vertical-align:middle;
+		}
+
+		.sliderBase{
+			position:relative;
+			display:inline-block;
+			height:100%;
+			vertical-align:middle;
+			/* background-color:red; */
+		}
+
+		.setaDiv{
+			position:relative;
+			display:inline-block;
+			vertical-align:middle;
+			/* background-color:purple; */
+		}
+
+		/* GALERIA DE IMAGENS */
+
+		.botao_galeria{
+			position:relative;
+			top:+10px;
+			font-size:25px;
+			color:black;
+			background-color:#FFD700; 
+			text-align:center;
+			text-decoration:none;
+			border-style:solid;
+			border-width:3px;
+			border-radius:15px;
+			box-shadow: 9px 9px 10px #888888;
+			padding:7px;
+			margin:10px;
+			
+		}
+
+		.sliderBase_galeria{
+			position:relative;
+			display:inline-block;
+			height:100%;
+			vertical-align:middle;
+			/* background-color:red; */
+		}
+
+		.interno_galeria{
+			width:999999px;
+			height:62px; 
+		}
+
+		.slider_galeria{
+			width:830px;
+			height:62px;
+			border-style:solid;
+			border-width:0px;
+			border-radius:15px;
+			overflow: hidden;
+			margin:20px;
+			/* background-color:blue; */
+			vertical-align:middle;
+		}
+
+		.setaDiv_galeria{
+			position:relative;
+			display:inline-block;
+			vertical-align:middle;
+			/* background-color:purple; */
+		}
+
+		.galeriaDiv{
+			position:relative;
+			width:940px;
+			margin:30px auto;
+			/* background-color:yellow; */
+		}
+
+		.botao:hover, .slideCardapio:hover, .sinalCardapio:hover, .seta_esquerda:hover, .seta_direita:hover, .seta:hover, .paginaCardapio:hover, .seta_galeria:hover, .botao_galeria:hover{
+			cursor:pointer;
+		}
+
+		.seta_esquerda_c:hover, .seta_direita_c:hover{
+			cursor:pointer;
+		}
+		
+
+		.entrada, .combo, .temaki, .frito, .hossomaki, .uramaki, .sunomomo, .niguiri, .sashimi, .sushiespecial{
+			display:none;
+	
+		}
+		
+
+		/* nota: para centralizar na horizontal width não pode estar 100%(valor padrão para todos os elementos div) e margin:auto deve ser utilizado */
+		/* nota2: para centralizar na vertical, height deve estar 100%, e vertical-align:middle deve ser utilizado */
